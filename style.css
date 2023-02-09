@@ -1,0 +1,120 @@
+body{
+    background-color: dodgerblue;
+}
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.modal-content{
+    background-color: white;
+    height: 50px;
+    width: 60%;
+    margin: auto;
+    margin-top: 15%;
+    padding: 20px;
+}
+
+.st{
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;    
+}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    background-color: chartreuse;
+    border-collapse: collapse;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.delete{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: red;
+    height: 40px;
+    width: 75px;
+    border: none;
+    
+    font-size: 20px;
+}
+.edit{
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 10px;
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    width: 70px;
+    background-color: yellow;
+    border: none;
+
+}
+.delete:hover{
+    
+    box-shadow: 1px 1px 7px red, -1px 1px 10px red, 1px -1px 10px red;
+}
+.edit:hover{
+    
+    box-shadow: 1px 1px 7px yellow, -1px 1px 10px yellow, 1px -1px 10px yellow;
+}
+.form1{
+    position: relative;
+    left: 23%;
+    top: 70px;
+}
+.form1 input, .form1 button{
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.lalS{
+    margin-left: 10px;
+    width: 100px;
+    position: relative;
+    top: 1.4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: chartreuse;
+    font-size: 20px;
+}
+.lalS:hover{
+    
+    box-shadow: 1px 1px 10px rgb(60, 128, 0), -1px 1px 10px rgb(60, 128, 0), 1px -1px 10px rgb(60, 128, 0);
+}
+.head{
+    margin-left: 70px;
+    color: rgb(55, 0, 128);
+}
+.sera, .btnSR{
+    
+    outline: none;
+    padding: 10px;
+
+    border-radius: 8px;
+}
+.f{
+    position: relative;
+    left: 40%;
+    top: 150px;
+}
+.btnSR{
+    margin-left: 10px;
+    width: 100px;
+    position: relative;
+    top: 1.4px;
+    cursor: pointer;
+    border: none;
+    background-color: orange;
+
+    font-size: 16px;
+}
